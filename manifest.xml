@@ -1,0 +1,24 @@
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="TaskPaneApp">
+  <Id>123e4567-e89b-12d3-a456-426614174000</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>Rachna Ahirwar</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="OneView" />
+  <Description DefaultValue="Visualize OneNote page content." />
+  <IconUrl DefaultValue="https://github.hpe.com/rachna-ahirwar/OneView/blob/main/assets/icon.png" />
+  <AppDomains>
+    <AppDomain>https://username.github.io</AppDomain>
+  </AppDomains>
+  <Hosts>
+    <Host Name="OneNote" />
+  </Hosts>
+  <Requirements>
+    <Sets DefaultMinVersion="1.1">
+      <Set Name="OneNoteApi" MinVersion="1.1" />
+    </Sets>
+  </Requirements>
+  <Permissions>ReadWriteDocument</Permissions>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://github.hpe.com/rachna-ahirwar/OneView/blob/main/index.html" />
+  </DefaultSettings>
+</OfficeApp>
